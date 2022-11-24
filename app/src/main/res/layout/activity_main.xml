@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido!"
+        android:textSize="18dp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué recordatorios quieres ver?"
+        android:textSize="18dp"
+        android:layout_marginTop="305dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/todos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Todos"
+        android:layout_marginTop="345dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/hoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoy"
+        android:layout_marginTop="395dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

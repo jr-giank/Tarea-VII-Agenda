@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HoyActivity">
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escribe el ID del registro"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:id="@+id/idInfo"
+        android:layout_below="@+id/texto"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="ID: "
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/texto"
+            android:textSize="18dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tituloInfo"
+        android:layout_below="@+id/idInfo"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Titulo: "
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/titulo"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/texto"
+            android:textSize="18dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recordatorioInfo"
+        android:layout_below="@+id/tituloInfo"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Recordatorio: "
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/recordatorio"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/texto"
+            android:textSize="18dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/recordatorioInfo"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Fecha: "
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/fecha"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/texto"
+            android:textSize="18dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/seleccionar"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar"/>
+
+    <Button
+        android:id="@+id/editar"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="175dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar"/>
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="290dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"/>
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"/>
+
+</RelativeLayout>
